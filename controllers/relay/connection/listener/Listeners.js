@@ -16,13 +16,13 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Listeners = void 0;
-var Listeners_1 = require("../../../listener/Listeners");
+var Listeners_1 = require("../../../listener/nonStatic/Listeners");
 var Listeners = /** @class */ (function (_super) {
     __extends(Listeners, _super);
     function Listeners() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     return Listeners;
-}(Listeners_1.Listeners.NonStatic));
+}(Listeners_1.Listeners));
 exports.Listeners = Listeners;
 //# sourceMappingURL=Listeners.js.map

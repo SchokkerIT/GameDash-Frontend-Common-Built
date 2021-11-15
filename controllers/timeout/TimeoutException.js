@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Exception_1 = __importDefault(require("../../exceptions/Exception"));
 var TimeoutException = /** @class */ (function (_super) {
     __extends(TimeoutException, _super);
-    function TimeoutException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function TimeoutException(message) {
+        return _super.call(this, message) || this;
     }
     return TimeoutException;
 }(Exception_1.default));

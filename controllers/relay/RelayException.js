@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var RuntimeException_1 = __importDefault(require("../../exceptions/RuntimeException"));
 var RelayException = /** @class */ (function (_super) {
     __extends(RelayException, _super);
-    function RelayException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function RelayException(message) {
+        return _super.call(this, message) || this;
     }
     return RelayException;
 }(RuntimeException_1.default));

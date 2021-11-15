@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var RelayException_1 = __importDefault(require("../RelayException"));
 var ConnectionException = /** @class */ (function (_super) {
     __extends(ConnectionException, _super);
-    function ConnectionException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function ConnectionException(message) {
+        return _super.call(this, message) || this;
     }
     return ConnectionException;
 }(RelayException_1.default));

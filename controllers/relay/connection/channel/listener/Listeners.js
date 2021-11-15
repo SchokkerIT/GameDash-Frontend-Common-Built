@@ -55,7 +55,7 @@ exports.Listeners = void 0;
 var Mutex_1 = require("../../../../mutex/Mutex");
 var Logger_1 = require("../../../../logger/Logger");
 var Json_1 = require("../../../../json/Json");
-var Listeners_1 = require("../../../../listener/Listeners");
+var Listeners_1 = require("../../../../listener/nonStatic/Listeners");
 var MessageDecoder_1 = require("../../../payload/message/MessageDecoder");
 var Listeners = /** @class */ (function (_super) {
     __extends(Listeners, _super);
@@ -179,6 +179,6 @@ var Listeners = /** @class */ (function (_super) {
         return Json_1.Json.encode(message);
     };
     return Listeners;
-}(Listeners_1.Listeners.NonStatic));
+}(Listeners_1.Listeners));
 exports.Listeners = Listeners;
 //# sourceMappingURL=Listeners.js.map

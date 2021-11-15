@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var DataLayerException_1 = __importDefault(require("./DataLayerException"));
 var ValueSourceNotFoundException = /** @class */ (function (_super) {
     __extends(ValueSourceNotFoundException, _super);
-    function ValueSourceNotFoundException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function ValueSourceNotFoundException(message) {
+        return _super.call(this, message) || this;
     }
     return ValueSourceNotFoundException;
 }(DataLayerException_1.default));

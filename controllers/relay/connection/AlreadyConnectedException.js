@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var ConnectionException_1 = __importDefault(require("./ConnectionException"));
 var AlreadyConnectedException = /** @class */ (function (_super) {
     __extends(AlreadyConnectedException, _super);
-    function AlreadyConnectedException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function AlreadyConnectedException(message) {
+        return _super.call(this, message) || this;
     }
     return AlreadyConnectedException;
 }(ConnectionException_1.default));

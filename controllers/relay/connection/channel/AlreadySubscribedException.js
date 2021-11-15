@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var ChannelException_1 = __importDefault(require("./ChannelException"));
 var AlreadySubscribedException = /** @class */ (function (_super) {
     __extends(AlreadySubscribedException, _super);
-    function AlreadySubscribedException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function AlreadySubscribedException(message) {
+        return _super.call(this, message) || this;
     }
     return AlreadySubscribedException;
 }(ChannelException_1.default));

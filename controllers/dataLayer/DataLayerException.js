@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Exception_1 = __importDefault(require("../../exceptions/Exception"));
 var DataLayerException = /** @class */ (function (_super) {
     __extends(DataLayerException, _super);
-    function DataLayerException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function DataLayerException(message) {
+        return _super.call(this, message) || this;
     }
     return DataLayerException;
 }(Exception_1.default));

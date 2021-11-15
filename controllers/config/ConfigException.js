@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Exception_1 = __importDefault(require("../../exceptions/Exception"));
 var ConfigException = /** @class */ (function (_super) {
     __extends(ConfigException, _super);
-    function ConfigException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function ConfigException(message) {
+        return _super.call(this, message) || this;
     }
     return ConfigException;
 }(Exception_1.default));

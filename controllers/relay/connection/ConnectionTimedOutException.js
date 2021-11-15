@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var ConnectionException_1 = __importDefault(require("./ConnectionException"));
 var ConnectionTimedOutException = /** @class */ (function (_super) {
     __extends(ConnectionTimedOutException, _super);
-    function ConnectionTimedOutException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function ConnectionTimedOutException(message) {
+        return _super.call(this, message) || this;
     }
     return ConnectionTimedOutException;
 }(ConnectionException_1.default));

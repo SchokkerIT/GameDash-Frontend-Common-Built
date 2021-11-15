@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Exception_1 = __importDefault(require("./Exception"));
 var InvalidArgumentException = /** @class */ (function (_super) {
     __extends(InvalidArgumentException, _super);
-    function InvalidArgumentException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function InvalidArgumentException(message) {
+        return _super.call(this, message) || this;
     }
     return InvalidArgumentException;
 }(Exception_1.default));

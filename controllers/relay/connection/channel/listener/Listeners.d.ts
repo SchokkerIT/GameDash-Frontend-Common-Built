@@ -1,8 +1,8 @@
-import { Listeners as ListenersBase } from 'controllers/listener/Listeners';
+import { Listeners as ListenersBase } from 'controllers/listener/nonStatic/Listeners';
 import { Connection } from 'controllers/relay/connection/Connection';
 import { Channel } from 'controllers/relay/connection/channel/Channel';
 import { Handle as IListenerCallbackHandle } from 'interfaces/listener/callback/Callback';
-export declare class Listeners extends ListenersBase.NonStatic {
+export declare class Listeners extends ListenersBase {
     private readonly connection;
     private readonly channel;
     private listeningToSocket;

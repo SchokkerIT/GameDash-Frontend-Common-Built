@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var ConnectionException_1 = __importDefault(require("../ConnectionException"));
 var ChannelException = /** @class */ (function (_super) {
     __extends(ChannelException, _super);
-    function ChannelException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function ChannelException(message) {
+        return _super.call(this, message) || this;
     }
     return ChannelException;
 }(ConnectionException_1.default));

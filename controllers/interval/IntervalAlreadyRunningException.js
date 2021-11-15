@@ -21,8 +21,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var IntervalException_1 = __importDefault(require("./IntervalException"));
 var IntervalAlreadyRunningException = /** @class */ (function (_super) {
     __extends(IntervalAlreadyRunningException, _super);
-    function IntervalAlreadyRunningException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function IntervalAlreadyRunningException(message) {
+        return _super.call(this, message) || this;
     }
     return IntervalAlreadyRunningException;
 }(IntervalException_1.default));

@@ -18,13 +18,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Exception_1 = __importDefault(require("./Exception"));
+var RuntimeException_1 = __importDefault(require("./RuntimeException"));
 var IOException = /** @class */ (function (_super) {
     __extends(IOException, _super);
-    function IOException() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function IOException(message) {
+        return _super.call(this, message) || this;
     }
     return IOException;
-}(Exception_1.default));
+}(RuntimeException_1.default));
 exports.default = IOException;
 //# sourceMappingURL=IOException.js.map

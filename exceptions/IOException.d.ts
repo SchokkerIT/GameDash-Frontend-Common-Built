@@ -1,3 +1,4 @@
-import Exception from './Exception';
-export default class IOException extends Exception {
+import RuntimeException from './RuntimeException';
+export default class IOException extends RuntimeException {
+    constructor(message: string);
 }
