@@ -1,0 +1,24 @@
+{
+    "name": "GameDash-Frontend-Common",
+    "version": "1.0.0",
+    "description": "GameDash Frontend Common (built)",
+    "main": "index.js",
+    "repository": "https://github.com/SchokkerIT/GameDash-Frontend-Common-Built",
+    "author": "Schokker IT B.V.",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "async-mutex": "^0.3.2",
+        "axios": "^0.24.0",
+        "axios-retry": "^3.2.4",
+        "email-validator": "^2.0.4",
+        "javascript-time-ago": "^2.3.10",
+        "js-base64": "^3.7.2",
+        "moment": "^2.29.1",
+        "run-exclusive": "^2.2.14",
+        "socket.io-client": "^4.3.2",
+        "uuid": "^8.3.2",
+        "valid-url": "^1.0.9",
+        "validator": "^13.7.0"
+    }
+}
