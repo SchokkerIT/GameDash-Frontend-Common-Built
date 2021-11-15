@@ -37,7 +37,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ValueSource = void 0;
-var Time_1 = require("controllers/time/Time");
+var Time_1 = require("../time/Time");
 var ValueSource = /** @class */ (function () {
     function ValueSource(fetchableValues, fetchFunction) {
         this.fetchableValues = fetchableValues;

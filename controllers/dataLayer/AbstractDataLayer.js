@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AbstractDataLayer = void 0;
-var Mutex_1 = require("controllers/mutex/Mutex");
+var Mutex_1 = require("../mutex/Mutex");
 var Store_1 = require("./Store");
 var ValueSource_1 = require("./ValueSource");
 var Registry_1 = require("./Registry");

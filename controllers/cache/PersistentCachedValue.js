@@ -37,9 +37,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PersistentCachedValue = void 0;
-var Time_1 = require("controllers/time/Time");
-var Storage_1 = require("controllers/storage/Storage");
-var Mutex_1 = require("controllers/mutex/Mutex");
+var Time_1 = require("../time/Time");
+var Storage_1 = require("../storage/Storage");
+var Mutex_1 = require("../mutex/Mutex");
 var Implementations_1 = require("./Implementations");
 var PersistentCachedValue = /** @class */ (function () {
     function PersistentCachedValue(storageKey, options) {

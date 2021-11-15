@@ -18,7 +18,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Exception_1 = __importDefault(require("exceptions/Exception"));
+var Exception_1 = __importDefault(require("../../exceptions/Exception"));
 var TimeoutException = /** @class */ (function (_super) {
     __extends(TimeoutException, _super);
     function TimeoutException() {

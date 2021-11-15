@@ -36,8 +36,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var Mutex_1 = require("controllers/mutex/Mutex");
-var Time_1 = require("controllers/time/Time");
+var Mutex_1 = require("../mutex/Mutex");
+var Time_1 = require("../time/Time");
 var Implementations_1 = require("./Implementations");
 var default_1 = /** @class */ (function () {
     function default_1() {

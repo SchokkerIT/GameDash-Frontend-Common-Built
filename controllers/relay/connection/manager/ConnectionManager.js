@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ConnectionManager = void 0;
 var socket_io_client_1 = __importDefault(require("socket.io-client"));
-var Logger_1 = require("controllers/logger/Logger");
+var Logger_1 = require("../../../logger/Logger");
 var ChannelCollection_1 = require("../channel/collection/ChannelCollection");
 var Listeners_1 = require("../listener/Listeners");
 var ConnectWrapper_1 = require("./ConnectWrapper");

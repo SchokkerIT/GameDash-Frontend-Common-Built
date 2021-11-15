@@ -41,10 +41,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Connection = void 0;
 var uuid_1 = require("uuid");
-var CachedValue_1 = require("controllers/cache/CachedValue");
-var Logger_1 = require("controllers/logger/Logger");
-var Json_1 = require("controllers/json/Json");
-var Mutex_1 = require("controllers/mutex/Mutex");
+var CachedValue_1 = require("../../cache/CachedValue");
+var Logger_1 = require("../../logger/Logger");
+var Json_1 = require("../../json/Json");
+var Mutex_1 = require("../../mutex/Mutex");
 var HostHelpers_1 = require("../host/HostHelpers");
 var Channels_1 = require("./channel/Channels");
 var QueryParameter_1 = require("./query/QueryParameter");

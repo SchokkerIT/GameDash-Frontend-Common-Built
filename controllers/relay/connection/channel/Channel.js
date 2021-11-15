@@ -40,8 +40,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Channel = void 0;
-var Mutex_1 = require("controllers/mutex/Mutex");
-var CachedValue_1 = require("controllers/cache/CachedValue");
+var Mutex_1 = require("../../../mutex/Mutex");
+var CachedValue_1 = require("../../../cache/CachedValue");
 var Listeners_1 = require("./listener/Listeners");
 var AlreadySubscribedException_1 = __importDefault(require("./AlreadySubscribedException"));
 var Channel = /** @class */ (function () {

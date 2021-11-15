@@ -18,7 +18,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var RuntimeException_1 = __importDefault(require("exceptions/RuntimeException"));
+var RuntimeException_1 = __importDefault(require("../../exceptions/RuntimeException"));
 var StorageException = /** @class */ (function (_super) {
     __extends(StorageException, _super);
     function StorageException(message) {

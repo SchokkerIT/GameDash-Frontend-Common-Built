@@ -7,7 +7,7 @@ exports.Time = void 0;
 var moment_1 = __importDefault(require("moment"));
 var javascript_time_ago_1 = __importDefault(require("javascript-time-ago"));
 var en_1 = __importDefault(require("javascript-time-ago/locale/en"));
-var TripleSplit_1 = require("enums/time/TripleSplit");
+var TripleSplit_1 = require("../../enums/time/TripleSplit");
 var Time = /** @class */ (function () {
     function Time(timestamp) {
         this.timestamp = timestamp;

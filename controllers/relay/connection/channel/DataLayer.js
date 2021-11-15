@@ -52,7 +52,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DataLayer = void 0;
-var AbstractDataLayer_1 = require("controllers/dataLayer/AbstractDataLayer");
+var AbstractDataLayer_1 = require("../../../dataLayer/AbstractDataLayer");
 var Relay_1 = require("../../Relay");
 var DataLayer = /** @class */ (function (_super) {
     __extends(DataLayer, _super);

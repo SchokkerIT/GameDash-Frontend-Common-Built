@@ -19,7 +19,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CountriesCachedList = void 0;
-var CachedList_1 = __importDefault(require("controllers/cache/CachedList"));
+var CachedList_1 = __importDefault(require("../../cache/CachedList"));
 var Country_1 = require("./Country");
 var CountriesCachedList = /** @class */ (function (_super) {
     __extends(CountriesCachedList, _super);

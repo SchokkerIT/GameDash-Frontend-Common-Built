@@ -37,7 +37,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ChannelsSubscriptionManager = void 0;
-var Mutex_1 = require("controllers/mutex/Mutex");
+var Mutex_1 = require("../../../../mutex/Mutex");
 var ChannelsSubscriptionManager = /** @class */ (function () {
     function ChannelsSubscriptionManager(collection) {
         this.subscribeMutex = new Mutex_1.Mutex();

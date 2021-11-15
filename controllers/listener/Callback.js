@@ -40,7 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Callback = void 0;
-var InvalidArgumentException_1 = __importDefault(require("exceptions/InvalidArgumentException"));
+var InvalidArgumentException_1 = __importDefault(require("../../exceptions/InvalidArgumentException"));
 var Callback = /** @class */ (function () {
     function Callback(callback) {
         if (!callback) {

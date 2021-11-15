@@ -52,11 +52,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Listeners = void 0;
-var Mutex_1 = require("controllers/mutex/Mutex");
-var Logger_1 = require("controllers/logger/Logger");
-var Json_1 = require("controllers/json/Json");
-var Listeners_1 = require("controllers/listener/Listeners");
-var MessageDecoder_1 = require("controllers/relay/payload/message/MessageDecoder");
+var Mutex_1 = require("../../../../mutex/Mutex");
+var Logger_1 = require("../../../../logger/Logger");
+var Json_1 = require("../../../../json/Json");
+var Listeners_1 = require("../../../../listener/Listeners");
+var MessageDecoder_1 = require("../../../payload/message/MessageDecoder");
 var Listeners = /** @class */ (function (_super) {
     __extends(Listeners, _super);
     function Listeners(connection, channel) {

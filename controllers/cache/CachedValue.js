@@ -47,8 +47,8 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CachedValue = void 0;
 var Implementations_1 = require("./Implementations");
-var Mutex_1 = require("controllers/mutex/Mutex");
-var ExpiringValue_1 = require("util/ExpiringValue");
+var Mutex_1 = require("../mutex/Mutex");
+var ExpiringValue_1 = require("../../util/ExpiringValue");
 var CachedValue = /** @class */ (function () {
     function CachedValue(value) {
         this.handleMutex = new Mutex_1.Mutex();

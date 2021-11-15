@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ExpiringValue = void 0;
-var Time_1 = require("controllers/time/Time");
+var Time_1 = require("../controllers/time/Time");
 var ExpiringValue = /** @class */ (function () {
     function ExpiringValue(value) {
         if (value !== undefined) {

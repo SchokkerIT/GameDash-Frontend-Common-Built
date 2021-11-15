@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Listeners = void 0;
-var Listeners_1 = require("controllers/listener/Listeners");
+var Listeners_1 = require("../../../listener/Listeners");
 var Listeners = /** @class */ (function (_super) {
     __extends(Listeners, _super);
     function Listeners() {

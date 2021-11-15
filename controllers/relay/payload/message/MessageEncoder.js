@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MessageEncoder = void 0;
-var Json_1 = require("controllers/json/Json");
-var Base64_1 = require("controllers/base64/Base64");
+var Json_1 = require("../../../json/Json");
+var Base64_1 = require("../../../base64/Base64");
 var MessageEncoder = /** @class */ (function () {
     function MessageEncoder() {
     }

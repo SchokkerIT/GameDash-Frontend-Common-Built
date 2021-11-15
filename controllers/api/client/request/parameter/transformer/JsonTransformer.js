@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.JsonTransformer = void 0;
-var Json_1 = require("controllers/json/Json");
+var Json_1 = require("../../../../../json/Json");
 var JsonTransformer = /** @class */ (function () {
     function JsonTransformer() {
     }

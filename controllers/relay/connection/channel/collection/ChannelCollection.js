@@ -46,7 +46,7 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ChannelCollection = void 0;
-var CachedValue_1 = require("controllers/cache/CachedValue");
+var CachedValue_1 = require("../../../../cache/CachedValue");
 var ChannelsSubscriptionManager_1 = require("./ChannelsSubscriptionManager");
 var ChannelCollection = /** @class */ (function () {
     function ChannelCollection(channels) {

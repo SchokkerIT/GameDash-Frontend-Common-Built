@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FlagManager = void 0;
 var DefaultFlagProvider_1 = require("./DefaultFlagProvider");
-var Exception_1 = __importDefault(require("exceptions/Exception"));
+var Exception_1 = __importDefault(require("../../../../exceptions/Exception"));
 var FlagManager = /** @class */ (function () {
     function FlagManager(country) {
         this.country = country;

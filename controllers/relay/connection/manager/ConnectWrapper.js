@@ -40,8 +40,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ConnectWrapper = void 0;
-var Logger_1 = require("controllers/logger/Logger");
-var System_1 = require("util/System");
+var Logger_1 = require("../../../logger/Logger");
+var System_1 = require("../../../../util/System");
 var ConnectionException_1 = __importDefault(require("../ConnectionException"));
 var ConnectionTimedOutException_1 = __importDefault(require("../ConnectionTimedOutException"));
 var ConnectWrapper = /** @class */ (function () {

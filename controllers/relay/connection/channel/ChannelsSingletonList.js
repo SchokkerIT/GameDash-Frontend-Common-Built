@@ -19,7 +19,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ChannelsSingletonList = void 0;
-var SingletonList_1 = __importDefault(require("controllers/singleton/SingletonList"));
+var SingletonList_1 = __importDefault(require("../../../singleton/SingletonList"));
 var Channel_1 = require("./Channel");
 var ChannelsSingletonList = /** @class */ (function (_super) {
     __extends(ChannelsSingletonList, _super);

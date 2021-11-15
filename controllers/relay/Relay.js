@@ -37,8 +37,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Relay = void 0;
-var CachedValue_1 = require("controllers/cache/CachedValue");
-var Connections_1 = require("controllers/relay/connection/Connections");
+var CachedValue_1 = require("../cache/CachedValue");
+var Connections_1 = require("./connection/Connections");
 var Hosts_1 = require("./host/Hosts");
 var Relay = /** @class */ (function () {
     function Relay() {

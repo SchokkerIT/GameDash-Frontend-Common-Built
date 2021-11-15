@@ -37,7 +37,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Client = void 0;
-var Listeners_1 = require("controllers/listener/nonStatic/Listeners");
+var Listeners_1 = require("../../listener/nonStatic/Listeners");
 var Request_1 = require("./request/Request");
 var ResultRegistry_1 = require("./result/ResultRegistry");
 var Client = /** @class */ (function () {

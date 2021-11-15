@@ -52,7 +52,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MemoryProvider = void 0;
-var KeyValue_1 = require("controllers/store/memory/keyValue/KeyValue");
+var KeyValue_1 = require("../../store/memory/keyValue/KeyValue");
 var AbstractProvider_1 = require("./AbstractProvider");
 var MemoryProvider = /** @class */ (function (_super) {
     __extends(MemoryProvider, _super);

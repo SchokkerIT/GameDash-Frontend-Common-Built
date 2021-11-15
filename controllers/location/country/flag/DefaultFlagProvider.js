@@ -52,7 +52,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DefaultFlagProvider = void 0;
-var Url_1 = require("controllers/http/Url");
+var Url_1 = require("../../../http/Url");
 var FlagProvider_1 = require("./FlagProvider");
 var DefaultFlagProvider = /** @class */ (function (_super) {
     __extends(DefaultFlagProvider, _super);
