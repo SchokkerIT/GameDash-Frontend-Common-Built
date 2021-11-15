@@ -25,4 +25,4 @@ var HeaderParameter = /** @class */ (function (_super) {
     return HeaderParameter;
 }(AbstractParameter_1.AbstractParameter));
 exports.HeaderParameter = HeaderParameter;
-//# sourceMappingURL=HeaderParameter.js.map
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSGVhZGVyUGFyYW1ldGVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vLi4vc3JjL2NvbnRyb2xsZXJzL3JlbGF5L2Nvbm5lY3Rpb24vaGVhZGVyL0hlYWRlclBhcmFtZXRlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxvRUFBbUU7QUFFbkU7SUFBcUMsbUNBQWlCO0lBQXREOztJQUF3RCxDQUFDO0lBQUQsc0JBQUM7QUFBRCxDQUFDLEFBQXpELENBQXFDLHFDQUFpQixHQUFHO0FBQTVDLDBDQUFlIn0=
