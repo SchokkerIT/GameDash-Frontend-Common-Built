@@ -1,4 +1,4 @@
-import { Connection } from 'controllers/relay/connection/Connection';
+import { Connection } from "./connection/Connection";
 import { IHost } from './host/IHost';
 export declare class Relay {
     private static primaryConnection;

@@ -1,5 +1,5 @@
-import { Methods as HttpMethodsEnum } from 'enums/http/Methods';
-import { ResponseType } from 'types/http/ResponseType';
+import { Methods as HttpMethodsEnum } from "../../../../enums/http/Methods";
+import { ResponseType } from "../../../../types/http/ResponseType";
 export interface Request {
     id: string;
     domain: string;

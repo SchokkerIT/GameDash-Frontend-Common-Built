@@ -1,8 +1,8 @@
 import { Request, IOptions, TDomainFetcher } from './request/Request';
-import { Handle as IListenerCallbackHandle } from 'interfaces/listener/callback/Callback';
-import { Request as IRequest } from 'interfaces/api/client/request/Request';
-import { Response as IResponse } from 'interfaces/api/client/request/Response';
-import { Methods as HttpMethodsEnum } from 'enums/http/Methods';
+import { Handle as IListenerCallbackHandle } from "../../../interfaces/listener/callback/Callback";
+import { Request as IRequest } from "../../../interfaces/api/client/request/Request";
+import { Response as IResponse } from "../../../interfaces/api/client/request/Response";
+import { Methods as HttpMethodsEnum } from "../../../enums/http/Methods";
 export declare class Client {
     private static listeners;
     static getDefaultDomainFetcher(): TDomainFetcher;

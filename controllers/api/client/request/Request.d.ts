@@ -1,12 +1,12 @@
-import { Url } from 'controllers/http/Url';
+import { Url } from "../../../http/Url";
 import { Headers } from './header/Headers';
 import { Parameters } from './parameter/Parameters';
 import { Response } from './response/Response';
 import { ErrorHandlerManager as ResponseErrorHandlerManager } from './response/ErrorHandlerManager';
-import { Methods as HttpMethodsEnum } from 'enums/http/Methods';
-import { ResponseType } from 'types/http/ResponseType';
-import { Response as IResponse } from 'interfaces/api/client/request/Response';
-import { Handle as ICallbackHandle } from 'interfaces/listener/callback/Callback';
+import { Methods as HttpMethodsEnum } from "../../../../enums/http/Methods";
+import { ResponseType } from "../../../../types/http/ResponseType";
+import { Response as IResponse } from "../../../../interfaces/api/client/request/Response";
+import { Handle as ICallbackHandle } from "../../../../interfaces/listener/callback/Callback";
 export declare class Request {
     protected readonly endpoint: string;
     private static defaultDomainFetcher;

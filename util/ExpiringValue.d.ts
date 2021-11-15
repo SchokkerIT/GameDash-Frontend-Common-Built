@@ -1,4 +1,4 @@
-import { Time } from 'controllers/time/Time';
+import { Time } from "../controllers/time/Time";
 export declare class ExpiringValue<T> {
     private time;
     private threshold;

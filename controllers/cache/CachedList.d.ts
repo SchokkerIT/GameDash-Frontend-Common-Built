@@ -1,4 +1,4 @@
-import { Time } from 'controllers/time/Time';
+import { Time } from "../time/Time";
 import { IImplementation } from './IImplementation';
 export default abstract class<T> implements IImplementation {
     private mutex;

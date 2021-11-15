@@ -1,9 +1,9 @@
-import { Mutex } from 'controllers/mutex/Mutex';
-import { CachedValue } from 'controllers/cache/CachedValue';
-import { ICached } from 'controllers/cache/ICached';
+import { Mutex } from "../../../mutex/Mutex";
+import { CachedValue } from "../../../cache/CachedValue";
+import { ICached } from "../../../cache/ICached";
 import { Listeners } from './listener/Listeners';
 import { Connection } from '../Connection';
-import { Comparable as IComparable } from 'interfaces/Comparable';
+import { Comparable as IComparable } from "../../../../interfaces/Comparable";
 export declare class Channel implements IComparable, ICached {
     readonly subscribeMutex: Mutex;
     readonly unSubscribeMutex: Mutex;

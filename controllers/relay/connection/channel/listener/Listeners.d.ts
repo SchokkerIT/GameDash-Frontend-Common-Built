@@ -1,7 +1,7 @@
-import { Listeners as ListenersBase } from 'controllers/listener/nonStatic/Listeners';
-import { Connection } from 'controllers/relay/connection/Connection';
-import { Channel } from 'controllers/relay/connection/channel/Channel';
-import { Handle as IListenerCallbackHandle } from 'interfaces/listener/callback/Callback';
+import { Listeners as ListenersBase } from "../../../../listener/nonStatic/Listeners";
+import { Connection } from "../../Connection";
+import { Channel } from "../Channel";
+import { Handle as IListenerCallbackHandle } from "../../../../../interfaces/listener/callback/Callback";
 export declare class Listeners extends ListenersBase {
     private readonly connection;
     private readonly channel;

@@ -2,9 +2,9 @@ import { Channels } from './channel/Channels';
 import { HeaderParameter } from './header/HeaderParameter';
 import { QueryParameter } from './query/QueryParameter';
 import { ConnectionManager } from './manager/ConnectionManager';
-import { Handle as IListenerCallbackHandle } from 'interfaces/listener/callback/Callback';
+import { Handle as IListenerCallbackHandle } from "../../../interfaces/listener/callback/Callback";
 import { IHost } from '../host/IHost';
-import { Comparable } from 'interfaces/Comparable';
+import { Comparable } from "../../../interfaces/Comparable";
 export declare class Connection implements Comparable {
     private readonly id;
     private readonly host;

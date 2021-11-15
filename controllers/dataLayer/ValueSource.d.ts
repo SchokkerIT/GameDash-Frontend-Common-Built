@@ -1,4 +1,4 @@
-import { Time } from 'controllers/time/Time';
+import { Time } from "../time/Time";
 export declare type TFetchFunction = {
     (name: string): Promise<any>;
 };

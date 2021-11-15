@@ -1,4 +1,4 @@
-import { TValue } from 'controllers/store/memory/keyValue/KeyValue';
+import { TValue } from "../store/memory/keyValue/KeyValue";
 import { ValueSource } from './ValueSource';
 export declare class Store {
     private readonly memoryKeyValueStore;

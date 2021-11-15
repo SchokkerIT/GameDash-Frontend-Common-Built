@@ -1,4 +1,4 @@
-import { Uri } from 'controllers/http/Uri';
+import { Uri } from "../../http/Uri";
 export interface IHost {
     getHostname(): Promise<string>;
     getSocketPort(): Promise<number>;

@@ -1,4 +1,4 @@
-import { Handle as ICallbackHandle } from 'interfaces/listener/callback/Callback';
+import { Handle as ICallbackHandle } from "../../../interfaces/listener/callback/Callback";
 import { Listener } from './Listener';
 import { TCallback } from '../Callback';
 export declare class Listeners {

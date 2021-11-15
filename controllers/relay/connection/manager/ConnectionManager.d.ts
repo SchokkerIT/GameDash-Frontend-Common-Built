@@ -1,7 +1,7 @@
 import { Connection } from '../Connection';
 import { Listeners } from '../listener/Listeners';
 import { IHost } from '../../host/IHost';
-import { Handle as IListenerCallbackHandle } from 'interfaces/listener/callback/Callback';
+import { Handle as IListenerCallbackHandle } from "../../../../interfaces/listener/callback/Callback";
 export declare class ConnectionManager {
     private readonly host;
     private readonly connection;

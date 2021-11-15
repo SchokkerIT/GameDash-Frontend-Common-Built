@@ -1,4 +1,4 @@
-import { TripleSplit as TripleSplitEnum } from 'enums/time/TripleSplit';
+import { TripleSplit as TripleSplitEnum } from "../../enums/time/TripleSplit";
 export declare class Time {
     private readonly timestamp;
     constructor(timestamp: number);

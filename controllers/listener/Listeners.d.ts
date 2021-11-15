@@ -1,6 +1,6 @@
 import { Listeners as NonStaticListeners } from './nonStatic/Listeners';
 import { Listener } from './Listener';
-import { Handle as ICallbackHandle } from 'interfaces/listener/callback/Callback';
+import { Handle as ICallbackHandle } from "../../interfaces/listener/callback/Callback";
 import { TCallback } from './Callback';
 export declare class Listeners {
     static NonStatic: typeof NonStaticListeners;

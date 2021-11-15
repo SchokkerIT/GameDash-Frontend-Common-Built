@@ -1,4 +1,4 @@
-import { Time } from 'controllers/time/Time';
+import { Time } from "../time/Time";
 import { IProvider, ISetOptions as IProviderSetOptions } from './providers/IProvider';
 export interface ISetOptions extends IProviderSetOptions {
 }
