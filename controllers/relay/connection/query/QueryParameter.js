@@ -25,4 +25,4 @@ var QueryParameter = /** @class */ (function (_super) {
     return QueryParameter;
 }(AbstractParameter_1.AbstractParameter));
 exports.QueryParameter = QueryParameter;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUXVlcnlQYXJhbWV0ZXIuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi8uLi9zcmMvY29udHJvbGxlcnMvcmVsYXkvY29ubmVjdGlvbi9xdWVyeS9RdWVyeVBhcmFtZXRlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxvRUFBbUU7QUFFbkU7SUFBb0Msa0NBQWlCO0lBQXJEOztJQUF1RCxDQUFDO0lBQUQscUJBQUM7QUFBRCxDQUFDLEFBQXhELENBQW9DLHFDQUFpQixHQUFHO0FBQTNDLHdDQUFjIn0=
+//# sourceMappingURL=QueryParameter.js.map

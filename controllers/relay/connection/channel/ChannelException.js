@@ -27,4 +27,4 @@ var ChannelException = /** @class */ (function (_super) {
     return ChannelException;
 }(ConnectionException_1.default));
 exports.default = ChannelException;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2hhbm5lbEV4Y2VwdGlvbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uL3NyYy9jb250cm9sbGVycy9yZWxheS9jb25uZWN0aW9uL2NoYW5uZWwvQ2hhbm5lbEV4Y2VwdGlvbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLCtFQUF5RDtBQUV6RDtJQUE4QyxvQ0FBbUI7SUFBakU7O0lBQW1FLENBQUM7SUFBRCx1QkFBQztBQUFELENBQUMsQUFBcEUsQ0FBOEMsNkJBQW1CLEdBQUcifQ==
+//# sourceMappingURL=ChannelException.js.map

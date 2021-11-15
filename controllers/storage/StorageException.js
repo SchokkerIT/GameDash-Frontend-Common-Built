@@ -27,4 +27,4 @@ var StorageException = /** @class */ (function (_super) {
     return StorageException;
 }(RuntimeException_1.default));
 exports.default = StorageException;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiU3RvcmFnZUV4Y2VwdGlvbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9jb250cm9sbGVycy9zdG9yYWdlL1N0b3JhZ2VFeGNlcHRpb24udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxpRkFBMkQ7QUFFM0Q7SUFBOEMsb0NBQWdCO0lBRTFELDBCQUFhLE9BQWU7ZUFFeEIsa0JBQU8sT0FBTyxDQUFFO0lBRXBCLENBQUM7SUFFTCx1QkFBQztBQUFELENBQUMsQUFSRCxDQUE4QywwQkFBZ0IsR0FRN0QifQ==
+//# sourceMappingURL=StorageException.js.map
