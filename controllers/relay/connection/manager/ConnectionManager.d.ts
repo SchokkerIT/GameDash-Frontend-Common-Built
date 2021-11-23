@@ -13,6 +13,7 @@ export declare class ConnectionManager {
     constructor(host: IHost, connection: Connection);
     connect(options?: {
         maxAttempts?: number;
+        connectToSubscribedChannels?: boolean;
     }): Promise<void>;
     reconnect(): Promise<void>;
     private connectToSubscribedChannels;
