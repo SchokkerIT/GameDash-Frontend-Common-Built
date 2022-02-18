@@ -1,3 +1,4 @@
+import { Time } from "../../../time/Time";
 import { Url } from "../../../http/Url";
 import { Headers } from './header/Headers';
 import { Parameters } from './parameter/Parameters';
@@ -24,6 +25,8 @@ export declare class Request {
     private includeSession;
     private validateResponse;
     private retry;
+    private startTime;
+    private endTime;
     constructor(endpoint: string, options?: IOptions);
     getId(): string;
     get(): Promise<Response>;
@@ -40,6 +43,11 @@ export declare class Request {
     setShouldIncludeSession(shouldIncludeSession: boolean): void;
     shouldValidateResponse(): boolean;
     setShouldValidateResponse(shouldValidateResponse: boolean): void;
+    getStartTime(): Time;
+    private setStartTime;
+    getEndTime(): Time;
+    private setEndTime;
+    getMillisecondsElapsed(): number;
     makeRequest(method: HttpMethodsEnum): Promise<any>;
     getResponseErrorHandlerManager(): ResponseErrorHandlerManager;
     protected handleResponse(method: HttpMethodsEnum, axiosResponse: any): Promise<Response>;

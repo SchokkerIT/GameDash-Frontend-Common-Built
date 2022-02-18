@@ -1,7 +1,7 @@
 import { Channels } from './channel/Channels';
 import { HeaderParameter } from './header/HeaderParameter';
 import { QueryParameter } from './query/QueryParameter';
-import { ConnectionManager } from './manager/ConnectionManager';
+import { ConnectionManager, IGenericListenerCallbackResult } from './manager/ConnectionManager';
 import { Handle as IListenerCallbackHandle } from "../../../interfaces/listener/callback/Callback";
 import { IHost } from '../host/IHost';
 import { Comparable } from "../../../interfaces/Comparable";
@@ -36,10 +36,10 @@ export declare class Connection implements Comparable {
     destroyChannels(): void;
     sendMessage(channelName: string, message: any, ackCallback?: (...parameters: any[]) => any): Promise<void>;
     onConnect(callback: {
-        (): Promise<void> | void;
+        (result: IGenericListenerCallbackResult): Promise<void> | void;
     }): IListenerCallbackHandle;
     onDisconnect(callback: {
-        (): Promise<void> | void;
+        (result: IGenericListenerCallbackResult): Promise<void> | void;
     }): IListenerCallbackHandle;
     onFailedConnection(callback: {
         (): Promise<void> | void;

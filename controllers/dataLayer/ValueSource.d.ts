@@ -7,6 +7,7 @@ export declare class ValueSource {
     private readonly fetchFunction;
     private timeout;
     private lastFetchTime;
+    private cachingEnabled;
     constructor(fetchableValues: string[], fetchFunction: TFetchFunction);
     getFetchableValues(): string[];
     valueIsFetchable(name: string): boolean;
@@ -17,4 +18,6 @@ export declare class ValueSource {
     getTimeLastFetched(): Time;
     updateTimeLastFetched(): void;
     setTimeLastFetched(time: Time): void;
+    cachingIsEnabled(): boolean;
+    setCachingIsEnabled(enabled: boolean): void;
 }

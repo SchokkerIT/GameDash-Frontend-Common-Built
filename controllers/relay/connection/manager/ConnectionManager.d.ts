@@ -37,19 +37,22 @@ export declare class ConnectionManager {
     private getSocketUri;
     private handleUnexpectedDisconnect;
     onConnect(callback: {
-        (): Promise<void> | void;
+        (result: IGenericListenerCallbackResult): Promise<void> | void;
     }): IListenerCallbackHandle;
     private invokeOnConnect;
     onFailedConnection(callback: {
-        (): Promise<void> | void;
+        (result: IGenericListenerCallbackResult): Promise<void> | void;
     }): IListenerCallbackHandle;
     private invokeOnFailedConnection;
     onDisconnect(callback: {
-        (): Promise<void> | void;
+        (result: IGenericListenerCallbackResult): Promise<void> | void;
     }): IListenerCallbackHandle;
     private invokeOnDisconnect;
     onUnexpectedDisconnect(callback: {
         (): any;
     }): IListenerCallbackHandle;
     private invokeOnUnexpectedDisconnect;
+}
+export interface IGenericListenerCallbackResult {
+    persisted: boolean;
 }
