@@ -9,11 +9,11 @@ export declare abstract class AbstractDataLayer implements IDataLayer {
     protected constructor();
     getValueSources(): ValueSource[];
     registerValueSource(names: string[], fetchFunction: TValueSourceValueFetchFunction): ValueSource;
-    getValue(name: string, options?: {
+    getValue<T = any>(name: string, options?: {
         useStore?: boolean;
-    }): Promise<any>;
+    }): Promise<T>;
     valueIsCached(name: string): boolean;
-    setValue(name: string, value: any): void;
+    setValue<T = any>(name: string, value: T): void;
     setValues(values: {
         [name: string]: any;
     }): void;

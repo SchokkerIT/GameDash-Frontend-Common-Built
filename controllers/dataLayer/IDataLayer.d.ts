@@ -2,10 +2,10 @@ import { ValueSource, TFetchFunction as TValueSourceValueFetchFunction } from '.
 export interface IDataLayer {
     getValueSources(): ValueSource[];
     registerValueSource(names: string[], fetchFunction: TValueSourceValueFetchFunction): ValueSource;
-    getValue(name: string, options: {
+    getValue<T = any>(name: string, options: {
         useStore?: boolean;
-    }): Promise<any>;
-    setValue(name: string, value: any): void;
+    }): Promise<T>;
+    setValue<T = any>(name: string, value: T): void;
     setValues(values: {
         [name: string]: any;
     }): void;

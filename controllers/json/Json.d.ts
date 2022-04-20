@@ -1,7 +1,7 @@
 export declare class Json {
-    static encode(value: any, options?: {
+    static encode<T = any>(value: T, options?: {
         indentation?: string;
     }): string;
-    static decode(value: string): any;
+    static decode<T = any>(value: string): T;
     static isValid(value: any): boolean;
 }
