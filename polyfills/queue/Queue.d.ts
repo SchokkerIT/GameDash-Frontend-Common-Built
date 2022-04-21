@@ -7,6 +7,7 @@ export declare class Queue<T> {
     enqueueAll(elements: T[]): void;
     dequeue(): T;
     peek(): T;
+    contains(element: T): boolean;
     get length(): number;
     get isEmpty(): boolean;
     static create<T>(elements: T[]): Queue<T>;
