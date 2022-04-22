@@ -10,5 +10,5 @@ export declare class Queue<T> {
     contains(element: T): boolean;
     get length(): number;
     get isEmpty(): boolean;
-    static create<T>(elements: T[]): Queue<T>;
+    static create<T>(elements?: T[]): Queue<T>;
 }
