@@ -10,6 +10,7 @@ export declare class Time {
     toFormatted(format: string): string;
     tripleSplit(): TripleSplitEnum;
     isSameDay(t2: Time): boolean;
+    toMoment(): Moment.Moment;
     toDate(): Date;
     /**
      * Return UTC to local timezone offset in seconds

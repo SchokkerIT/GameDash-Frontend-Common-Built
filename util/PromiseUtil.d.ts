@@ -1,4 +1,4 @@
-interface IProgress {
+export interface IProgress {
     current: number;
     steps: number;
     percentage: number;
@@ -11,4 +11,3 @@ export default class PromiseUtil {
         mode?: 'all' | 'allSettled';
     }): Promise<IProgress[]>;
 }
-export {};
