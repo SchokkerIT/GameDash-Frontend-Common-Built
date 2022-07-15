@@ -1,8 +1,8 @@
-export declare type TCallback = {
-    (...args: any): Promise<void> | void;
+export declare type TCallback<TReturn = any> = {
+    (...args: any): Promise<TReturn> | TReturn;
 };
-export declare class Callback {
+export declare class Callback<TReturn = any> {
     private readonly callback;
-    constructor(callback: TCallback);
-    execute(args?: any[]): Promise<void>;
+    constructor(callback: TCallback<TReturn>);
+    execute(args?: any[]): Promise<TReturn>;
 }

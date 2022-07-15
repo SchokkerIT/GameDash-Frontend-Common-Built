@@ -1,8 +1,11 @@
-export declare class Response {
+export declare class Response<TResponse = any, TNativeResponse = any> {
     private readonly response;
     private readonly statusCode;
-    constructor(response: any, statusCode: number);
-    getRaw(): any;
+    private nativeResponse;
+    constructor(response: TResponse, statusCode: number);
+    getNativeResponse(): TNativeResponse;
+    setNativeResponse(response: TNativeResponse): void;
+    getRaw(): TResponse;
     getErrorMessage(): string;
     getErrorCode(): string;
     getErrorData(): any;

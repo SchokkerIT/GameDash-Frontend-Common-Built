@@ -4,9 +4,12 @@ import { IDataLayer } from './IDataLayer';
 export declare abstract class AbstractDataLayer implements IDataLayer {
     private readonly valueSources;
     private readonly mutex;
+    private name;
     private tags;
     readonly store: Store;
     protected constructor();
+    getName(): string;
+    setName(name: string): void;
     getValueSources(): ValueSource[];
     registerValueSource(names: string[], fetchFunction: TValueSourceValueFetchFunction): ValueSource;
     getValue<T = any>(name: string, options?: {

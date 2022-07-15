@@ -1,3 +1,4 @@
+import { AxiosResponse } from 'axios';
 import { Time } from "../../../time/Time";
 import { Url } from "../../../http/Url";
 import { Headers } from './header/Headers';
@@ -27,6 +28,7 @@ export declare class Request {
     private retry;
     private startTime;
     private endTime;
+    private version;
     constructor(endpoint: string, options?: IOptions);
     getId(): string;
     get(): Promise<Response>;
@@ -48,9 +50,9 @@ export declare class Request {
     getEndTime(): Time;
     private setEndTime;
     getMillisecondsElapsed(): number;
-    makeRequest(method: HttpMethodsEnum): Promise<any>;
+    request(method: HttpMethodsEnum): Promise<Response>;
     getResponseErrorHandlerManager(): ResponseErrorHandlerManager;
-    protected handleResponse(method: HttpMethodsEnum, axiosResponse: any): Promise<Response>;
+    protected handleResponse<TResponseData = any>(method: HttpMethodsEnum, axiosResponse: AxiosResponse): Promise<Response>;
     onResponse(callback: {
         (method: HttpMethodsEnum, response: IResponse): any;
     }): ICallbackHandle;
@@ -58,11 +60,13 @@ export declare class Request {
     onUploadProgress(callback: {
         (uploadProgress: IUploadProgress): any;
     }): ICallbackHandle;
+    isListeningForUploadProgress(): boolean;
     private invokeOnUploadProgress;
     private handleUploadProgress;
     onDownloadProgress(callback: {
         (downloadProgress: IDownloadProgress): any;
     }): ICallbackHandle;
+    isListeningForDownloadProgress(): boolean;
     private invokeOnDownloadProgress;
     private handleDownloadProgress;
     isSecure(): Promise<boolean>;
@@ -71,6 +75,8 @@ export declare class Request {
     getEndpoint(): string;
     getDomain(): Promise<string>;
     setDomain(domain: string): void;
+    getVersion(): string;
+    setVersion(version: string): void;
     getDomainFetcher(): TDomainFetcher;
     setDomainFetcher(fetch: TDomainFetcher): Promise<void>;
     private getData;

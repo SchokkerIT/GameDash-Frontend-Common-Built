@@ -6,8 +6,11 @@ export declare class Storage {
     private static defaultProvider;
     private provider;
     constructor(provider?: IProvider);
+    getAll(): Promise<{
+        [key: string]: any;
+    }>;
     get(key: string): Promise<any>;
-    set(key: string, value: any, options?: ISetOptions): Promise<void>;
+    set<T>(key: string, value: T, options?: ISetOptions): Promise<void>;
     delete(key: string, options?: any): Promise<void>;
     exists(key: string): Promise<boolean>;
     hasExpired(key: string): Promise<boolean>;

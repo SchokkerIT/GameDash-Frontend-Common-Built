@@ -54,9 +54,7 @@ var Callback = /** @class */ (function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, this.callback.apply(this, args)];
-                    case 1:
-                        _a.sent();
-                        return [2 /*return*/];
+                    case 1: return [2 /*return*/, _a.sent()];
                 }
             });
         });
@@ -64,4 +62,4 @@ var Callback = /** @class */ (function () {
     return Callback;
 }());
 exports.Callback = Callback;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2FsbGJhY2suanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY29udHJvbGxlcnMvbGlzdGVuZXIvQ2FsbGJhY2sudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsdUdBQTJFO0FBUTNFO0lBSUMsa0JBQWEsUUFBbUI7UUFFL0IsSUFBSSxDQUFDLFFBQVEsRUFBRztZQUVmLE1BQU0sSUFBSSxrQ0FBd0IsQ0FBQywyQkFBMkIsQ0FBQyxDQUFDO1NBRWhFO1FBRUQsSUFBSSxDQUFDLFFBQVEsR0FBRyxRQUFRLENBQUM7SUFFMUIsQ0FBQztJQUVLLDBCQUFPLEdBQWIsVUFBZSxJQUFnQjtRQUFoQixxQkFBQSxFQUFBLFNBQWdCOzs7OzRCQUU5QixxQkFBTSxJQUFJLENBQUMsUUFBUSxPQUFiLElBQUksRUFBYyxJQUFJLEdBQUU7O3dCQUE5QixTQUE4QixDQUFDOzs7OztLQUUvQjtJQUVGLGVBQUM7QUFBRCxDQUFDLEFBdEJELElBc0JDO0FBdEJZLDRCQUFRIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2FsbGJhY2suanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY29udHJvbGxlcnMvbGlzdGVuZXIvQ2FsbGJhY2sudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsdUdBQTJFO0FBUTNFO0lBSUMsa0JBQWEsUUFBNEI7UUFFeEMsSUFBSSxDQUFDLFFBQVEsRUFBRztZQUVmLE1BQU0sSUFBSSxrQ0FBd0IsQ0FBQywyQkFBMkIsQ0FBQyxDQUFDO1NBRWhFO1FBRUQsSUFBSSxDQUFDLFFBQVEsR0FBRyxRQUFRLENBQUM7SUFFMUIsQ0FBQztJQUVLLDBCQUFPLEdBQWIsVUFBZSxJQUFnQjtRQUFoQixxQkFBQSxFQUFBLFNBQWdCOzs7OzRCQUV2QixxQkFBTSxJQUFJLENBQUMsUUFBUSxPQUFiLElBQUksRUFBYyxJQUFJLEdBQUU7NEJBQXJDLHNCQUFPLFNBQThCLEVBQUM7Ozs7S0FFdEM7SUFFRixlQUFDO0FBQUQsQ0FBQyxBQXRCRCxJQXNCQztBQXRCWSw0QkFBUSJ9

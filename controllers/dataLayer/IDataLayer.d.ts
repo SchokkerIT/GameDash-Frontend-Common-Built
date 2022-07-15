@@ -1,5 +1,6 @@
 import { ValueSource, TFetchFunction as TValueSourceValueFetchFunction } from './ValueSource';
 export interface IDataLayer {
+    getName(): string;
     getValueSources(): ValueSource[];
     registerValueSource(names: string[], fetchFunction: TValueSourceValueFetchFunction): ValueSource;
     getValue<T = any>(name: string, options: {

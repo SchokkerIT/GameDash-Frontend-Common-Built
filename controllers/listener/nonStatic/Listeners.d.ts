@@ -1,8 +1,9 @@
-import { Handle as ICallbackHandle } from "../../../interfaces/listener/callback/Callback";
+import { ListenerSingletonMap } from './ListenerSingletonMap';
 import { Listener } from './Listener';
 import { TCallback } from '../Callback';
+import { Handle as ICallbackHandle } from "../../../interfaces/listener/callback/Callback";
 export declare class Listeners {
-    readonly listeners: Listener[];
+    readonly listenerSingletonMap: ListenerSingletonMap;
     getAll(): Listener[];
     add(name: string, callback?: TCallback): ICallbackHandle;
     addAll(names: string[], callback: TCallback): ICallbackHandle[];

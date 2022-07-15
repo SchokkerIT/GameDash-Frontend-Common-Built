@@ -2,7 +2,7 @@ import { Connection } from '../Connection';
 import { Channel } from './Channel';
 export declare class Channels {
     private readonly connection;
-    private channelsSingletonList;
+    private channelsSingletonMap;
     constructor(connection: Connection);
     getAll(): Channel[];
     get(name: string): Channel;
