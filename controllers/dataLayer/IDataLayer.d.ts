@@ -12,6 +12,7 @@ export interface IDataLayer {
     }): void;
     clearValue(name: string): void;
     findValueSource(name: string): ValueSource;
+    destroy(): void;
     clear(): void;
     valueIsFetchable(name: string): boolean;
     getTags(): string[];

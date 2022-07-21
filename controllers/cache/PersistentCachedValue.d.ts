@@ -1,5 +1,6 @@
 import { IImplementation } from './IImplementation';
-export declare class PersistentCachedValue<T> implements IImplementation {
+import { AbstractTaggedImplementation } from "./AbstractTaggedImplementation";
+export declare class PersistentCachedValue<T> extends AbstractTaggedImplementation implements IImplementation {
     private readonly handleMutex;
     private readonly storageKey;
     private readonly storage;
@@ -16,4 +17,5 @@ export declare class PersistentCachedValue<T> implements IImplementation {
     }): Promise<T>;
     getTimeout(): number;
     setTimeout(timeout: number): void;
+    protected ensureImplementationIsRegistered(): boolean;
 }

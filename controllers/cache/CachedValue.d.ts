@@ -1,5 +1,6 @@
 import { IImplementation } from './IImplementation';
-export declare class CachedValue<T> implements IImplementation {
+import { AbstractTaggedImplementation } from './AbstractTaggedImplementation';
+export declare class CachedValue<T> extends AbstractTaggedImplementation implements IImplementation {
     private readonly handleMutex;
     private value;
     constructor(value?: T);
@@ -25,4 +26,5 @@ export declare class CachedValue<T> implements IImplementation {
      * @param args
      */
     handleObjectConstruction(classObject: new (...any: any[]) => any, args: any[]): any;
+    protected ensureImplementationIsRegistered(): boolean;
 }

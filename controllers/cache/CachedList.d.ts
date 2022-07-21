@@ -1,11 +1,11 @@
 import { Time } from "../time/Time";
 import { IImplementation } from './IImplementation';
-export default abstract class<T> implements IImplementation {
+import { AbstractTaggedImplementation } from './AbstractTaggedImplementation';
+export default abstract class<T> extends AbstractTaggedImplementation implements IImplementation {
     private mutex;
     private list;
     private timeout;
     private lastModifiedTime;
-    constructor();
     fetch(): T[];
     private write;
     getAll(): T[];
@@ -31,6 +31,7 @@ export default abstract class<T> implements IImplementation {
     setTimeout(timeout: number): void;
     hasTimedOut(): boolean;
     getLastModifiedTime(): Time;
+    protected ensureImplementationIsRegistered(): boolean;
     private updateLastModifiedTime;
     abstract compare(a: any, b: any): boolean;
 }

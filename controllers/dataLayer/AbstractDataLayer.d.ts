@@ -4,10 +4,10 @@ import { IDataLayer } from './IDataLayer';
 export declare abstract class AbstractDataLayer implements IDataLayer {
     private readonly valueSources;
     private readonly mutex;
+    private registerHandle;
     private name;
     private tags;
     readonly store: Store;
-    protected constructor();
     getName(): string;
     setName(name: string): void;
     getValueSources(): ValueSource[];
@@ -28,4 +28,5 @@ export declare abstract class AbstractDataLayer implements IDataLayer {
     getTags(): string[];
     setTags(tags: string[]): void;
     addTag(tag: string): void;
+    destroy(): void;
 }
