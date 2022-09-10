@@ -14,6 +14,7 @@ export declare class Interval {
     isRunning(): boolean;
     reset(): void;
     setIsRunning(isRunning: boolean): void;
+    getDelay(): number;
     getIteration(): number;
     private setIteration;
     private incrementIteration;
