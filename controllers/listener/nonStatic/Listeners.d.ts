@@ -6,6 +6,7 @@ export declare class Listeners {
     readonly listenerSingletonMap: ListenerSingletonMap;
     getAll(): Listener[];
     add(name: string, callback?: TCallback): ICallbackHandle;
+    addUnique(name: string, id: string, callback?: TCallback): ICallbackHandle;
     addAll(names: string[], callback: TCallback): ICallbackHandle[];
     get(name: string): Listener;
 }
